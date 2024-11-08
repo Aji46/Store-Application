@@ -1,17 +1,33 @@
-# bw1_mechine_task
+readme_content = """
+# Flutter App with Home and Notifications Screens
 
-A new Flutter project.
+This is a Flutter application built using the MVC architecture and Provider state management. The app consists of two main screens: a **Home Screen** and a **Notifications Screen**. JSON data is parsed from an API endpoint and displayed on the notifications screen. For enhanced performance.
+
+## Features
+
+- **Home Screen**: Initial landing page displaying static content (per design).
+- **Notifications Screen**: Displays data parsed from a JSON endpoint.
+- **Efficient Parsing**: Uses isolates to handle JSON parsing for optimal performance.
+- **Provider State Management**: Manages state effectively across screens.
+- **Testing**: Includes test cases to ensure code quality and reliability.
+
+## Architecture
+
+This project uses **MVC (Model-View-Controller)** architecture to maintain code modularity, and **Provider** is utilized for state management to ensure efficient data flow and responsiveness.
+
+## Screenshots
+
+Screenshots of the application can be found in the `screenshots/` folder.
+
+## Prerequisites
+
+- **Flutter**: Ensure that you have Flutter SDK installed. [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- **Figma Assets**: Ensure you have exported all assets from the Figma design and placed them in the `assets/` folder.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. Clone the Repository
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Store-Application" 
+```bash
+git clone https://github.com/your-username/flutter-notification-app.git
+cd flutter-notification-app
